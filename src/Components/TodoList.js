@@ -1,9 +1,12 @@
 import React from 'react';
+import './style.css';
 
 function TodoList() {
     return (
-        <div>
-            
+        <div className='todo-container'>
+            <ul className='todo-list'>
+
+            </ul>
         </div>
     );
 }
